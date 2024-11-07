@@ -4,38 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Homepage</title>
+    <title>Zoo Support Chat</title>
     <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
   </head>
   <body>
-    <header>
-      <h1>Welcome to My Homepage</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-      <section>
-        <h2>About Us</h2>
-        <p>This site is styled with Sakura CSS, a lightweight framework for a simple, clean look.</p>
-      </section>
-
-      <section>
-        <h2>Services</h2>
-        <ul>
-          <li>Web Development</li>
-          <li>Design</li>
-          <li>Marketing</li>
-        </ul>
-      </section>
-    </main>
-
-    </nav>
-    <script src="index.js"></script>
+    <div>
+      <h1>Japan Zoo Support Chat</h1>
+      <div id="chatMessages">
+        <p><strong>Support:</strong> Welcome to the Japan Zoo Support Chat! How can we assist you?</p>
+      </div>
+      <div class="chat-input">
+        <input type="text" id="chatInput" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
   </body>
 </html>
